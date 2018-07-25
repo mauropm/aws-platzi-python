@@ -19,42 +19,42 @@ SET row_security = off;
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: -
 --
 
-CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+--CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 
 
 --
 -- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: -
 --
 
-COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+--COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
 
 
 --
 -- Name: postgis; Type: EXTENSION; Schema: -; Owner: -
 --
 
-CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
+--CREATE EXTENSION IF NOT EXISTS postgis WITH SCHEMA public;
 
 
 --
 -- Name: EXTENSION postgis; Type: COMMENT; Schema: -; Owner: -
 --
 
-COMMENT ON EXTENSION postgis IS 'PostGIS geometry, geography, and raster spatial types and functions';
+--COMMENT ON EXTENSION postgis IS 'PostGIS geometry, geography, and raster spatial types and functions';
 
 
 --
 -- Name: unaccent; Type: EXTENSION; Schema: -; Owner: -
 --
 
-CREATE EXTENSION IF NOT EXISTS unaccent WITH SCHEMA public;
+--CREATE EXTENSION IF NOT EXISTS unaccent WITH SCHEMA public;
 
 
 --
 -- Name: EXTENSION unaccent; Type: COMMENT; Schema: -; Owner: -
 --
 
-COMMENT ON EXTENSION unaccent IS 'text search dictionary that removes accents';
+--COMMENT ON EXTENSION unaccent IS 'text search dictionary that removes accents';
 
 
 SET default_tablespace = '';
@@ -70,8 +70,6 @@ CREATE TABLE public.ccgs (
     name character varying(255)
 );
 
-
---
 -- Name: constituencies; Type: TABLE; Schema: public; Owner: -
 --
 
